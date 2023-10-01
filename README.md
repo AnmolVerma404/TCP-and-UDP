@@ -47,3 +47,12 @@
 - No Congestion control
 - No ordered packets
 - Security
+
+### Code
+
+- Go to `/UDP` and run `npm i` in your folder's terminal
+- You need to install netcat on your os, best way is to do is linux
+  - Just do `apt-get install netcat`, there are other way to install but they are quite lenghty
+- Run your server (if possible run in debug mode and add a breakpoint on line 5)
+- Go to your wsl terminal and run `echo "hi" | nc -w1 -u 127.0.0.1 8081`
+  - Just `echo "hi"` will print "hi" in terminal but when added with "|" it pipes the logged "hi" to the netcat server with here is running on port 8081 from netcat port localhost.
