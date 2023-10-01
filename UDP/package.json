@@ -10,7 +10,7 @@
 	"author": "",
 	"license": "ISC",
 	"dependencies": {
-		"net": "^1.0.2",
+		"dgram": "^1.0.1",
 		"nodemon": "^3.0.1"
 	}
 }
